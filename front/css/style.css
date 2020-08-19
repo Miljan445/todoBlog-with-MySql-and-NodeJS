@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    /* background-color: #cff1ff; */
+    color: #ffffff;
+    padding: 10px;
+    /* background-image: url("../../slike/bgDay.png"); */
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+}
+.tabPick{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px 10px;
+    color: #ffffff;
+    /* background-color: #cff1ff; */
+}
+.tabPick h2{
+    cursor: pointer;
+}
+#todoPick{
+    border: 5px solid #ffffff;
+    padding: 5px 25px;
+}
+#blogPick{
+    border: 5px solid #ffffff;
+    padding: 5px 25px;
+}
+#signOut{
+    border: 5px solid #ffffff;
+    padding: 5px 25px;
+}
+#addTodoPick{
+    background-color: #936C8F;
+    color: #ffffff;
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    margin-top: 20px;
+}
+#addBlogPick{
+    background-color: #936C8F;
+    color: #ffffff;
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    margin-top: 20px;
+}
+.main{
+    text-align: center;
+}
+#todoHolder{
+    height: auto;
+}
+#blog{
+    display:none;
+}
+#todo{
+    width: 100%;
+}
+#todo h2:first-child{
+    margin-top: 20px;
+}
+#blog h2:first-child{
+    margin-top:20px;
+}
+.dataFromTable{
+    padding: 20px;
+    text-align: left;
+    margin: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #00000036;
+    width: 80%;
+    margin: auto;
+}
+.dataFromTable p{
+    margin: 2% 0;
+}
+.dataFromTable p:first-child{
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+}
+form{
+    margin-top: 20px;
+    padding: 2%;
+    text-align: center;
+}
+form h3{
+    margin: 20px 0;
+}
+input{
+    border: 0;
+    border-bottom: 1px solid #000;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.signup{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.signup input{
+    align-self: center;
+}
+.signup label{
+    margin: auto;
+}
+button{
+    border: 0;
+    border: 1px solid #000;
+    padding: 1% 2%;
+    background-color: transparent;
+    border-radius: 5px;
+}
+textarea{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#formTodo{
+    display: none;
+}
+#formBlog{
+    display: none;
+}
+.users{
+    padding: 20px 0;
+    padding-left: 20px;
+    text-align: left;
+    margin: 20px 0;
+    display: none;
+}
+.users h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.user{
+    border-bottom: 1px solid #00000036;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#getUsers{
+    border: 5px solid #ffffff;
+    padding: 5px 25px;
+}
+.user button{
+    width: 30%;
+    margin-bottom: 10px;
+}
+#signUpRedir{
+    margin-top: 20px;
+    cursor: pointer;
+}
+#signInRedir{
+    margin-top: 20px;
+    cursor: pointer;
+}
